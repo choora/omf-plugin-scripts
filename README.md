@@ -30,6 +30,7 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
 
 * `init.fish` 我的基本配置，以别名为主。
 * [random](docs/random.md) 使用时间戳生成一定范围的伪随机数。
+* [rand-file](docs/rand-file.md) 从当前文件夹中随机选择一个文件。
 
 ## 协议
 
