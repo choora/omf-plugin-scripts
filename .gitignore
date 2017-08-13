@@ -1,0 +1,12 @@
+# 文件名：.gitignore
+# 作者：抽拉（choooora@sina.com）
+# 创建日期：2017/08/04
+# 更新日期：2017/08/13
+# 简介：Git 的过滤文件。
+# 简介：配置
+
+# exVim
+# exVim 的工程文件
+*.exvim
+# exVim 的缓存文件
+.exvim*

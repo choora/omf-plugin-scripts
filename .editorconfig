@@ -1,0 +1,23 @@
+; 文件名：.editorconfig
+; 作者：抽拉（choooora@sina.com）
+; 创建日期：2017/08/04
+; 更新日期：2017/08/13
+; 简介：笔记系统的 EditorConfig 配置文件。
+; 关键字：配置
+
+; 查找到本配置停止。
+root = true
+
+[*]
+; 默认使用 Unix 样式的换行。
+end_of_line = lf
+; 默认使用 UTF-8 编码。
+charset = utf-8
+; 默认使用空格缩进。
+indent_style = space
+; 默认缩进 2 个字符，与 Oh My Fish! 风格相符。
+indent_size = 2
+; 默认行开头没有空白符。
+trim_trailing_whitespace = true
+; 默认以空白行结尾。
+insert_final_newline = true
