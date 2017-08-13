@@ -16,6 +16,7 @@ function random -d "使用时间戳生成一定范围的伪随机数。"
       echo $random_num
     else
       echo (omf::err)"范围边界不是数字，或者范围不存在。"(omf::off)
+      return 1
     end
   else if test $argv_len -eq 1
     switch $argv[1]
@@ -23,8 +24,10 @@ function random -d "使用时间戳生成一定范围的伪随机数。"
         help.random
       case '*'
         echo (omf::err)"参数不合法。"(omf::off)
+        return 1
     end
   else
     echo (omf::err)"参数过多。"(omf::off)
+    return 1
   end
 end
