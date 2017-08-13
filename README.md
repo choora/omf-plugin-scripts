@@ -15,6 +15,20 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
 * [fish][fish-url]
 * [Oh My Fish!][oh-my-fish-url]
 * [Git][git-url]
+* [fishmarks][fishmarks-url]
+* [trash-cli][trash-cli-url]
+* [PureRef][pureref-url]
+* [Tickeys][tickeys-url]
+* aria2c
+* xclip
+* [BiliDan][bilidan-url]
+* [huami-cli][huami-cli-url]
+* [KindleUnpack][kindle-unpack-url]
+* [remove-sdr-kindle][remove-sdr-kindle-url]
+
+## 脚本目录
+
+* `init.fish` 我的基本配置，以别名为主。
 
 ## 协议
 
@@ -25,3 +39,11 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
 [oh-my-fish-url]: https://github.com/oh-my-fish/
 [git-url]: https://git-scm.com/
 [mit-license-url]: https://opensource.org/licenses/MIT/
+[fishmarks-url]: https://github.com/techwizrd/fishmarks/
+[trash-cli-url]: https://github.com/andreafrancia/trash-cli/
+[pureref-url]: https://www.pureref.com/
+[tickeys-url]: http://www.yingdev.com/projects/tickeys/
+[bilidan-url]: https://github.com/m13253/BiliDan/
+[huami-cli-url]: https://github.com/ninehills/huami-cli/
+[kindle-unpack-url]: https://github.com/kevinhendricks/KindleUnpack/
+[remove-sdr-kindle-url]: https://github.com/purocean/remove-sdr-kindle/
