@@ -1,6 +1,6 @@
 # <img align="left" width="75px" src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg"/> Scripts ![mit-license-badge][mit-license-badge-url]
 
-你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
+_你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。_
 
 ## 简介
 
@@ -16,7 +16,12 @@
 * [Oh My Fish!][oh-my-fish-url]
 * [Git][git-url]
 
+## 协议
+
+本项目采用 [MIT 许可证][mit-license-url] 进行许可。
+
 [mit-license-badge-url]: https://img.shields.io/badge/license-MIT-007EC7.svg
 [fish-url]: https://fishshell.com/
-[oh-my-fish-url]: https://github.com/oh-my-fish
+[oh-my-fish-url]: https://github.com/oh-my-fish/
 [git-url]: https://git-scm.com/
+[mit-license-url]: https://opensource.org/licenses/MIT/
