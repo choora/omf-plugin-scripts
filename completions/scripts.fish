@@ -8,4 +8,8 @@
 complete -c random -f -d "生成随机数"
 complete -c random -f -s h -l help -d "显示帮助信息"
 
+complete -c rand-file -f -d "随机选择文件"
 complete -c rand-file -f -s h -l help -d "显示帮助信息"
+
+complete -c del-rand-file -f -d "随机删除文件夹"
+complete -c del-rand-file -f -s h -l help -d "显示帮助信息"
