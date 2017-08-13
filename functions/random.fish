@@ -14,6 +14,7 @@ function random -d "使用时间戳生成一定范围的伪随机数。"
       set -l time_stamp (command date +%s%N)
       set -l random_num (command expr (command expr $time_stamp '%' (command expr $max - $min)) + $min)
       echo $random_num
+      return 0
     else
       echo (omf::err)"范围边界不是数字，或者范围不存在。"(omf::off)
       return 1

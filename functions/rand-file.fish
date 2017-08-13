@@ -12,6 +12,7 @@ function rand-file -d "从当前文件夹中随机选择一个文件。"
     set -l files_len (count $files)
     set -l file $files[(random 1 $files_len)]
     echo $file
+    return 0
   else if test $argv_len -eq 1
     switch $argv[1]
       case "-h" "--help"
