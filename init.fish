@@ -1,15 +1,17 @@
 # 文件名：init.fish
 # 作者：抽拉（choooora@sina.com）
 # 创建日期：2017/08/13
-# 更新日期：2017/08/13
+# 更新日期：2017/08/14
 # 简介：插件初始化脚本，实则为我的 fish 基本配置。
 
 # 常量
 set -l USR_PROGRAM_PATH {$HOME}"/程序" # 程序路径。
 set -l USR_CONFIG_PATH {$HOME}"/配置" # 配置文件路径。
+set -l SCRIPTS_PATH {$HOME}"/项目/omf-plugin-scripts" # 脚本路径。
 
 # 启动
 source {$USR_PROGRAM_PATH}"/fishmarks/marks.fish" # 启动 fishmarks。
+source {$SCRIPTS_PATH}"/completions/scripts.fish" # 自动补全不加载的临时解决办法。
 
 # 缩写
 # 别名
