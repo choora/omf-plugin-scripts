@@ -25,6 +25,8 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
 * [huami-cli][huami-cli-url]
 * [KindleUnpack][kindle-unpack-url]
 * [remove-sdr-kindle][remove-sdr-kindle-url]
+* [ImageMagick][imagemagick-url]
+
 
 ## 脚本目录
 
@@ -33,6 +35,7 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
 * [rand-file](docs/rand-file.md) 从当前文件夹中随机选择一个文件。
 * [del-rand-file](docs/del-rand-file.md) 在当前文件夹下随机删除文件，直到文件数处于指定值。
 * [rename-num](docs/rename-num.md) 将当前文件夹下的文件使用数字重命名。
+* [shadow](docs/shadow.md) 为图片添加阴影。
 
 ## 问题
 
@@ -42,6 +45,7 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
 * [ ] 参数的解析还是太初级。
 * [ ] 双引号、单引号的使用，是否以句号结尾还是没有统一。
 * [ ] 需要在文档中加入测试脚本运行的图片。
+* [ ] 链接是否以“/”结尾未统一。
 
 ## 协议
 
@@ -60,3 +64,4 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
 [huami-cli-url]: https://github.com/ninehills/huami-cli/
 [kindle-unpack-url]: https://github.com/kevinhendricks/KindleUnpack/
 [remove-sdr-kindle-url]: https://github.com/purocean/remove-sdr-kindle/
+[imagemagick-url]: https://www.imagemagick.org/script/index.php
