@@ -12,6 +12,7 @@ function shadow -d "为图片添加阴影" -a input
     return 1
   else if test ! -e $input
     echo (omf::err)"文件不存在。"(omf::off)
+    return 1
   else
     set -l filename (echo $input | sed -r "s/^(.*)(\.\w*)\$/\1/")
     set -l ext (echo $input | sed -r "s/^(.*)(\.\w*)\$/\2/")

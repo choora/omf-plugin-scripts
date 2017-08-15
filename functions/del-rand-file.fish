@@ -10,8 +10,8 @@ function del-rand-file -d "随机删除文件"
   set -l files (ls)
   set -l files_len (count $files)
   if test $argv_len -eq 1
-    if echo $argv[1] | grep -q "^[0-9]\+\$"
-      if test $argv[1] -le $files_len
+    if echo $argv[1] | grep -q "^[0-9]\+\$" # 判断参数是否为纯数字。
+      if test $argv[1] -le $files_len # 判断目标文件数是否不大于当前文件数。
         set -l files_final_len $argv[1]
         set -l del_files_len (expr $files_len - $files_final_len)
         for i in (seq 1 $del_files_len)
@@ -30,9 +30,10 @@ function del-rand-file -d "随机删除文件"
       end
     else
       switch $argv[1]
-        case '-h' '--help'
+        case "-h" "--help"
           help.del-rand-file
-        case '*'
+          return 0
+        case "*"
           echo (omf::err)"参数不合法。"(omf::off)
           return 1
       end

@@ -17,7 +17,8 @@ function rand-file -d "随机选择一个文件"
     switch $argv[1]
       case "-h" "--help"
         help.rand-file
-      case '*'
+        return 0
+      case "*"
         echo (omf::err)"参数不合法。"(omf::off)
         return 1
     end

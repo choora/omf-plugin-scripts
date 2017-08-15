@@ -50,6 +50,5 @@ function rename-num -d "使用数字重命名"
   if test $eq_width -eq 1 -a $files_len -lt 10 # 若开启等宽，且总文件数不足 10 个，则给文件名开头添上 0。
     rename "s/^/0/" *
   end
-
   return 0
 end

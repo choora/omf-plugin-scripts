@@ -21,9 +21,10 @@ function random -d "生成伪随机数"
     end
   else if test $argv_len -eq 1
     switch $argv[1]
-      case '-h' '--help'
+      case "-h" "--help"
         help.random
-      case '*'
+        return 0
+      case "*"
         echo (omf::err)"参数不合法。"(omf::off)
         return 1
     end

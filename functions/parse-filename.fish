@@ -13,4 +13,5 @@ function parse-filename -d "解析文件名"
     set -l file $files[$i]
     echo $file | sed -r "s/^(.*)：(.*)\..*/\2\t\1/"
   end | clip
+  return 0
 end
