@@ -44,23 +44,23 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
 * [ ] GitHub 浏览 `init.fish` 时有错误的空格出现，但文件中并没有。
 * [ ] 自动补全不能加载，而且 `complete` 命令的使用还有一些问题。（_e.g._ 明明使用了 `-f` 还是在补全文件名；也没有显示描述。）
 * [ ] 参数的解析还是太初级。
-* [ ] 链接是否以“/”结尾未统一。
 
 ## 协议
 
 本项目采用 [MIT 许可证][mit-license-url] 进行许可。
 
 [mit-license-badge-url]: https://img.shields.io/badge/license-MIT-007EC7.svg
-[fish-url]: https://fishshell.com/
-[oh-my-fish-url]: https://github.com/oh-my-fish/
-[git-url]: https://git-scm.com/
-[mit-license-url]: https://opensource.org/licenses/MIT/
-[fishmarks-url]: https://github.com/techwizrd/fishmarks/
-[trash-cli-url]: https://github.com/andreafrancia/trash-cli/
-[pureref-url]: https://www.pureref.com/
-[tickeys-url]: http://www.yingdev.com/projects/tickeys/
-[bilidan-url]: https://github.com/m13253/BiliDan/
-[huami-cli-url]: https://github.com/ninehills/huami-cli/
-[kindle-unpack-url]: https://github.com/kevinhendricks/KindleUnpack/
-[remove-sdr-kindle-url]: https://github.com/purocean/remove-sdr-kindle/
+[fish-url]: https://fishshell.com
+[oh-my-fish-url]: https://github.com/oh-my-fish
+[git-url]: https://git-scm.com
+[mit-license-url]: https://opensource.org/licenses/MIT
+[fishmarks-url]: https://github.com/techwizrd/fishmarks
+[trash-cli-url]: https://github.com/andreafrancia/trash-cli
+[pureref-url]: https://www.pureref.com
+[tickeys-url]: http://www.yingdev.com/projects/tickeys
+[bilidan-url]: https://github.com/m13253/BiliDan
+[huami-cli-url]: https://github.com/ninehills/huami-cli
+[kindle-unpack-url]: https://github.com/kevinhendricks/KindleUnpack
+[remove-sdr-kindle-url]: https://github.com/purocean/remove-sdr-kindle
 [imagemagick-url]: https://www.imagemagick.org/script/index.php
+
