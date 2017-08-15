@@ -36,6 +36,7 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
 * [del-rand-file](docs/del-rand-file.md) 在当前文件夹下随机删除文件，直到文件数处于指定值。
 * [rename-num](docs/rename-num.md) 将当前文件夹下的文件使用数字重命名。
 * [shadow](docs/shadow.md) 为图片添加阴影。
+* [parse-filename](docs/parse-filename.md) 解析文件名。
 
 ## 问题
 
