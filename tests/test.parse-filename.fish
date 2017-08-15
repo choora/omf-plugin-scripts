@@ -1,3 +1,4 @@
+#!/usr/bin/env fish
 # 文件名：test.parse-filename.fish
 # 作者：抽拉（choooora@sina.com）
 # 创建日期：2017/08/15
@@ -12,5 +13,6 @@ cd $TEST_PATH
 touch "1234：abcd.txt"
 touch "abcd：efgh.txt"
 parse-filename
+clip -o
 cd -
 del $TEST_PATH
