@@ -1,11 +1,11 @@
 # 文件名：del-rand-file.fish
 # 作者：抽拉（choooora@sina.com）
 # 创建日期：2017/08/13
-# 更新日期：2017/08/13
+# 更新日期：2017/08/15
 # 简介：在当前文件夹下随机删除文件，直到文件数处于指定值。
 # 关键字：fish、随机
 
-function del-rand-file -d "在当前文件夹下随机删除文件，直到文件数处于指定值。"
+function del-rand-file -d "随机删除文件"
   set -l argv_len (count $argv)
   set -l files (ls)
   set -l files_len (count $files)

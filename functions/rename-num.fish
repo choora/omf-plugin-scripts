@@ -1,11 +1,11 @@
 # 文件名：rename-num.fish
 # 作者：抽拉（choooora@sina.com）
 # 创建日期：2017/08/14
-# 更新日期：2017/08/14
+# 更新日期：2017/08/15
 # 简介：将当前文件夹下的文件使用数字重命名。
 # 关键字：fish、重命名
 
-function rename-num # -d "将当前文件夹下的文件使用数字重命名"
+function rename-num -d "使用数字重命名"
   set -l argv_len (count $argv)
   set -l files (ls)
   set -l files_len (count $files)

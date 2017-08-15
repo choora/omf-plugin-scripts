@@ -14,7 +14,7 @@ complete -c rand-file -f -s h -l help -d "显示帮助信息"
 complete -c del-rand-file -f -d "随机删除文件夹"
 complete -c del-rand-file -f -s h -l help -d "显示帮助信息"
 
-complete -c rename-num -f -d "将当前文件夹下的文件使用数字重命名"
+complete -c rename-num -f -d "使用数字重命名"
 complete -c rename-num -f -s h -l help -d "显示帮助信息"
 complete -c rename-num -f -s w -l equal-width -d "使用等宽数字"
 
