@@ -6,7 +6,7 @@
 
 # 常量
 set -l USR_PROGRAM_PATH {$HOME}"/程序" # 程序路径。
-set -l USR_CONFIG_PATH {$HOME}"/配置" # 配置文件路径。
+set -l USR_CONFIG_PATH {$HOME}"/同步/配置" # 配置文件路径。
 set -l SCRIPTS_PATH {$HOME}"/项目/omf-plugin-scripts" # 脚本路径。
 
 # 启动
