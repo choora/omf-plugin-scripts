@@ -2,7 +2,7 @@
 
 _画中画显示摄像头影像。_
 
-![tease][../images/tease.png]
+![tease](../images/tease.png)
 
 ## 背景
 
