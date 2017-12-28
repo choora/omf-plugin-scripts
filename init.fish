@@ -15,7 +15,7 @@ source {$SCRIPTS_PATH}"/completions/scripts.fish" # 自动补全不加载的临�
 
 # 缩写
 # 别名
-alias bing-nice-wallpapers="python3 "{$USR_PROGRAM_PATH}"/bing-nice-wallpapers/BingNiceWallpapers.pwy"
+alias bing-nice-wallpapers="python3 "{$USR_PROGRAM_PATH}"/bing-nice-wallpapers/BingNiceWallpapers.pyw"
 alias del="trash-put" # 安全删除文件。
 alias pureref="PureRef" # 启动 PureRef。
 alias tickeys="Tickeys" # 启动 Tickeys。
