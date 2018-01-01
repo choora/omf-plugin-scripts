@@ -1,7 +1,7 @@
 # 文件名：init.fish
 # 作者：抽拉（choooora@sina.com）
 # 创建日期：2017/08/13
-# 更新日期：2017/12/24
+# 更新日期：2018/01/01
 # 简介：插件初始化脚本，实则为我的 fish 基本配置。
 
 # 常量
@@ -15,8 +15,9 @@ source {$SCRIPTS_PATH}"/completions/scripts.fish" # 自动补全不加载的临�
 
 # 缩写
 # 别名
-alias bing-nice-wallpapers="python3 "{$USR_PROGRAM_PATH}"/bing-nice-wallpapers/BingNiceWallpapers.pyw"
+alias bing-nice-wallpapers="python3 "{$USR_PROGRAM_PATH}"/bing-nice-wallpapers/BingNiceWallpapers.pyw" # 启动必应好壁纸。
 alias del="trash-put" # 安全删除文件。
+alias naotu={$USR_PROGRAM_PATH}"/naotu/DesktopNaotu" # 启动百度脑图。
 alias pureref="PureRef" # 启动 PureRef。
 alias tickeys="Tickeys" # 启动 Tickeys。
 alias krita="/usr/share/krita/appimage/krita.appimage" # 启动 Krita。
