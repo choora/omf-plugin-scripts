@@ -1,7 +1,7 @@
 # 文件名：init.fish
 # 作者：抽拉（choooora@sina.com）
 # 创建日期：2017/08/13
-# 更新日期：2018/01/01
+# 更新日期：2018/02/21
 # 简介：插件初始化脚本，实则为我的 fish 基本配置。
 
 # 常量
@@ -17,8 +17,10 @@ source {$SCRIPTS_PATH}"/completions/scripts.fish" # 自动补全不加载的临�
 # 别名
 alias bing-nice-wallpapers="python3 "{$USR_PROGRAM_PATH}"/bing-nice-wallpapers/BingNiceWallpapers.pyw" # 启动必应好壁纸。
 alias del="trash-put" # 安全删除文件。
+alias wechat="/usr/share/electronic-wechat/electronic-wechat" # 启动微信。
 alias naotu={$USR_PROGRAM_PATH}"/naotu/DesktopNaotu" # 启动百度脑图。
 alias pureref="PureRef" # 启动 PureRef。
+alias simplenote="/usr/share/simplenote/simplenote" # 启动 Simplenote。
 alias tickeys="Tickeys" # 启动 Tickeys。
 alias krita="/usr/share/krita/appimage/krita.appimage" # 启动 Krita。
 alias typora={$USR_PROGRAM_PATH}"/typora/Typora"
@@ -34,3 +36,8 @@ alias bilidan={$USR_PROGRAM_PATH}"/bilidan/bilidan.py" # 播放哔哩哔哩视�
 alias huami={$USR_PROGRAM_PATH}"/huami/huami.py" # 花密命令行工具。
 alias kindle-unpack={$USR_PROGRAM_PATH}"/kindle-unpack/KindleUnpack.pyw" # 将亚马逊电子书转为 ePub 电子书。
 alias rm-sdr="python3 "{$USR_PROGRAM_PATH}"/remove-sdr-kindle/remove-sdr.py" # 删除 Kindle 内的 sdr 文件夹。
+
+# 函数
+function gi --description "生成 Git 过滤文件"
+  curl -L -s "https://www.gitignore.io/api/$argv"
+end
