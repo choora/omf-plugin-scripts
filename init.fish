@@ -28,7 +28,7 @@ alias clip="xclip -sel clip" # 管理剪贴板。
 alias down="xset dpms force off" # 关闭屏幕。
 
 # 脚本
-# alias bilidan={$USR_PROGRAM_PATH}"/bilidan/bilidan.py" # 播放哔哩哔哩视频。（已失效）
+alias bilidan={$USR_PROGRAM_PATH}"/bilidan/bilidan.py" # 播放哔哩哔哩视频。
 # alias dedrm={$USR_PROGRAM_PATH}"/kindle-dedrm --kindle=90DD0703519306KL" # 解除亚马逊电子书的加密。
 alias huami={$USR_PROGRAM_PATH}"/huami/huami.py" # 花密命令行工具。
 alias kindle-unpack={$USR_PROGRAM_PATH}"/kindle-unpack/KindleUnpack.pyw" # 将亚马逊电子书转为 ePub 电子书。
