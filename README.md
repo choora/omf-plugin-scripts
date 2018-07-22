@@ -39,6 +39,7 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能。
 * [shadow](docs/shadow.md) 为图片添加阴影。
 * [parse-filename](docs/parse-filename.md) 解析文件名。
 * [tease](docs/tease.md) 画中画显示摄像头影像。
+* [monotasking](docs/monotasking.md) “单核工作法”闹钟。
 
 ## 问题
 
