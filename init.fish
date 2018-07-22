@@ -19,6 +19,7 @@ source {$SCRIPTS_PATH}"/completions/scripts.fish" # 自动补全不加载的临�
 alias del="trash-put" # 安全删除文件。
 alias pureref="PureRef" # 启动 PureRef。
 alias tickeys="Tickeys" # 启动 Tickeys。
+alias tranqil="com.github.nick92.tranqil" # 启动 Tranqil。
 alias krita="/usr/share/krita/appimage/krita.appimage" # 启动 Krita。
 alias typora={$USR_PROGRAM_PATH}"/typora/Typora"
 
