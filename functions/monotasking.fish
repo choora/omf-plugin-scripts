@@ -1,7 +1,7 @@
 # 文件名：monotasking.fish
 # 作者：抽拉（choooora@sina.com）
 # 创建日期：2018/07/21
-# 更新日期：2018/07/22
+# 更新日期：2018/07/27
 # 简介：“单核工作法”闹钟，可以选择播放白噪音或背景音。
 # 关键字：fish、自我管理、效率
 
@@ -34,6 +34,11 @@ function monotasking -d "单核工作法闹钟"
     set end_hour (math $now_hour" + 1")
     set end_min "30"
   end
+
+  if test $end_hour -eq 24 # 如果闹钟时间为凌晨 0 点的情况。
+    set end_hour "00"
+  end
+
   set end $end_hour":"$end_min":00"
 
   while test $now != $end
