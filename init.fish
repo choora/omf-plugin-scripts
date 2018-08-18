@@ -15,13 +15,14 @@ source {$SCRIPTS_PATH}"/completions/scripts.fish" # 自动补全不加载的临�
 
 # 缩写
 # 别名
-alias bing-nice-wallpapers="python3 "{$USR_PROGRAM_PATH}"/bing-nice-wallpapers/BingNiceWallpapers.pyw" # 启动必应好壁纸。
+# alias bing-nice-wallpapers="python3 "{$USR_PROGRAM_PATH}"/bing-nice-wallpapers/BingNiceWallpapers.pyw" # 启动“必应好壁纸”。（已不再使用）
 alias del="trash-put" # 安全删除文件。
 alias wechat="/usr/share/electronic-wechat/electronic-wechat" # 启动微信。
 alias naotu={$USR_PROGRAM_PATH}"/naotu/DesktopNaotu" # 启动百度脑图。
 alias pureref="PureRef" # 启动 PureRef。
 alias simplenote="/usr/share/simplenote/simplenote" # 启动 Simplenote。
 alias tickeys="Tickeys" # 启动 Tickeys。
+alias tranqil="com.github.nick92.tranqil" # 启动 Tranqil。
 alias krita="/usr/share/krita/appimage/krita.appimage" # 启动 Krita。
 alias typora={$USR_PROGRAM_PATH}"/typora/Typora"
 
