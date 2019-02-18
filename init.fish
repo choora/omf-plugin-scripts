@@ -26,7 +26,7 @@ alias del="trash-put" # 安全删除文件.
 alias pureref="PureRef" # 启动 PureRef.
 # alias simplenote="/opt/Simplenote/simplenote" # 启动 Simplenote.（已不再使用）
 # alias tickeys="Tickeys" # 启动 Tickeys.（已不再使用）
-alias krita="/usr/share/krita/appimage/krita.appimage" # 启动 Krita.
+alias krita={$USR_PROGRAM_PATH}"/krita-4.1.7.appimage" # 启动 Krita.
 
 # 参数缩写
 alias aria2c-baidu="aria2c -D --conf-path "{$USR_CONFIG_PATH}"/aria2c/aria2-baidu-exporter.conf" # aria2c 下载百度网盘文件.
