@@ -5,5 +5,6 @@
 # 简介：monotasking 命令的自动补全脚本
 # 关键字：自动补全
 
-complete -c monotasking -f -s h -l help -d "显示帮助信息"
+complete -c monotasking -f -d "全景闹钟"
+complete -c monotasking -s h -l help -d "显示帮助信息"
 
