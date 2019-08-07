@@ -29,10 +29,8 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能._
 * [mpv][mpv-url]
 * [fish-completion-helpers][fish-completion-helpers-url]
 
+## 自定义命令
 
-## 脚本目录
-
-* `init.fish` 我的基本配置，以别名为主.
 * [random](docs/random.md) 使用时间戳生成一定范围的伪随机数.
 * [rand-file](docs/rand-file.md) 从当前文件夹中随机选择一个文件.
 * [del-rand-file](docs/del-rand-file.md) 在当前文件夹下随机删除文件，直到文件数处于指定值.
@@ -42,10 +40,13 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能._
 * [tease](docs/tease.md) 画中画显示摄像头影像.
 * [monotasking](docs/monotasking.md) “单核工作法”闹钟.
 
+## 自动补全脚本
+
+* [bypy][bypy-url]
+
 ## 问题
 
 * [ ] 既然自动补全中写了命令的描述，又在命令定义时写了描述，且内容不一致，是否会有冲突？
-* [ ] GitHub 浏览 `init.fish` 时有错误的空格出现，但文件中并没有.
 * [ ] 参数的解析还是太初级.
 
 ## 协议
@@ -68,3 +69,4 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能._
 [imagemagick-url]: https://www.imagemagick.org/script/index.php
 [mpv-url]: https://mpv.io/
 [fish-completion-helpers-url]: https://github.com/danhper/fish-completion-helpers
+[bypy-url]: https://github.com/houtianze/bypy
