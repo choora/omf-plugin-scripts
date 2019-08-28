@@ -18,12 +18,9 @@ _你绝对不会想要使用的 Oh My Fish! 插件，提供各种快餐功能._
 * [fishmarks][fishmarks-url]
 * [trash-cli][trash-cli-url]
 * [PureRef][pureref-url]
-* [Tickeys][tickeys-url]
 * aria2c
 * xclip
-* [BiliDan][bilidan-url]
 * [huami-cli][huami-cli-url]
-* [KindleUnpack][kindle-unpack-url]
 * [remove-sdr-kindle][remove-sdr-kindle-url]
 * [ImageMagick][imagemagick-url]
 * [mpv][mpv-url]
