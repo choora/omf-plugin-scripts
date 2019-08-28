@@ -2,7 +2,7 @@
 
 _使用时间戳生成一定范围的伪随机数。_
 
-![random](../images/random.png)
+![rand](../images/rand.png)
 
 ## 背景
 
